@@ -1,0 +1,133 @@
+html {
+  overflow-x: hidden; }
+
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden; }
+
+a {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+
+a:hover {
+  text-decoration: none; }
+
+a a:focus {
+  outline: none; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+p {
+  margin: 0px; }
+
+ul,
+ol {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0; }
+
+.pt-40 {
+  padding-top: 40px; }
+
+.pb-70 {
+  padding-bottom: 70px; }
+
+ul li,
+ol li {
+  list-style: none; }
+
+a:not([href]):not([tabindex]) {
+  color: #fff; }
+
+.main {
+  margin: auto; }
+
+/* Content */
+.content {
+  background-color: white; }
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  background-color: 333;
+  cursor: pointer; }
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none !important; }
+
+/* Add a dark background color to the active button */
+.btn.active {
+  color: #333; }
+
+.dropdown-toggle::after {
+  content: none !important; }
+
+button:focus {
+  outline: none !important; }
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.youtube iframe, .youtube object, .youtube embed {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 100%; }
+
+/* ==========================================================================
+  Home page
+   ========================================================================== */
+/* Start header */
+/* End header */
+/* Start content */
+/* ==========================================================================
+
+    /* ==========================================================================
+  Box 3
+   ========================================================================== */
+.box-3 {
+  text-align: center;
+  margin-bottom: 80px; }
+
+/* end content */
+/* ==========================================================================
+   Footer End
+   ========================================================================== */
+/* -------------------------------- 
+
+
+
+/* ==========================================================================
+  Responsive
+   ========================================================================== */
+
+/*# sourceMappingURL=style.css.map */
