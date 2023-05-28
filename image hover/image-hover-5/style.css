@@ -1,0 +1,35 @@
+div{
+  display:flex;
+      max-height: 200px;
+    max-width: 300px;
+  position:relative;
+}
+
+.hover-effect::before {
+    right: 0;
+    opacity:0.7;
+    top: 0;
+}
+.hover-effect::after {
+    bottom: 0;
+    opacity: 0.7;
+    left: 0;
+}
+
+
+.hover-effect::before, .hover-effect::after {
+    content: "";
+    background: #fff;
+    height: 0;
+    width: 0;
+    z-index: 1;
+    position: absolute;
+    -webkit-transition-duration: 1.3s !important;
+    -o-transition-duration: 1.3s;
+  transition-duration: 1.3s !important;
+}
+.hover-effect:hover::after, .hover-effect:hover::before {
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+}
